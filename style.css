@@ -14,12 +14,15 @@ body {
 }
 
 #main-header {
-  background-color: goldenrod;
+  background-color: silver;
   color: #fff;
 }
-
+li:hover,
+#sidebar:hover {
+  background-color: rgb(247, 14, 14);
+}
 #navbar {
-  background-color: #333;
+  background-color: black;
   color: #fff;
 }
 
@@ -33,13 +36,13 @@ body {
 }
 
 #navbar a {
-  color: #fff;
+  color: white;
   text-decoration: none;
   font-size: 18px;
   padding-right: 15px;
 }
 #showcase {
-  background-image: url("../images.jpg/abstract car.jpg");
+  background-image: url("../images.jpg/ifycars.jpeg");
   background-position: center right;
   min-height: 300px;
   margin-bottom: 30px;
@@ -64,10 +67,12 @@ p {
 }
 #sidebar {
   float: right;
+  font-family: papyrus;
   width: 30%;
-  background: skyblue;
+  background: cornflowerblue;
   color: #fff;
   padding: 10px;
+  border-radius: 25px;
   box-sizing: border-box;
 }
 #main-footer {
@@ -78,13 +83,16 @@ p {
   margin-top: 40px;
 }
 
-@media(max-width:600px){
-  #main{
+@media (max-width: 600px) {
+  #main {
     width: 100%;
     float: none;
   }
-  #sidebar{
+  #sidebar {
     width: 100%;
     float: none;
   }
-  
+  imgContainer {
+    float: left;
+  }
+}
