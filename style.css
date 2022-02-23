@@ -82,6 +82,9 @@ p {
   padding: 20px;
   margin-top: 40px;
 }
+body.subservice {
+  background-color: blanchedalmond;
+}
 
 @media (max-width: 600px) {
   #main {
